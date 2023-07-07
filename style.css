@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    background-color: wheat;
+}
+
+.bar{
+    background-color: blue;
+    fill:#2b7a78;
+}
+
+.bar:hover{
+    fill:#17252a;
+}
+
+#tooltip{
+    margin-top: 10px;
+    font-size: 28px;
+}
